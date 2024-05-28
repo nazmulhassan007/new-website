@@ -1,3 +1,14 @@
+/* body section */
+
+body{
+    background: linear-gradient(
+        to right,
+        #F5F6FA,
+        #f1f2f9
+    );
+    height: 5698px;
+}
+
 /* header section */
 .container{
     background-image: url('./images/Hero_Section.png');
@@ -199,4 +210,231 @@ text{
     line-height: 145%; /* 26.1px */
     border: none;
     cursor: pointer;
+}
+
+
+/* main section */
+
+.imag{
+    width: 1170px;
+    height: 482px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #F5F6FA;
+    backdrop-filter: blur(200px);
+    margin-left: 300px;
+    margin-top: -200px;
+}
+
+
+.maira{
+    color: #462D4E;
+    text-align: center;
+    font-family: "Circular Std", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 133.333% */
+    padding-top: 59px;
+}
+
+.img{
+    margin-left: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.img1{
+    margin-right: 40px;
+}
+
+
+/* about section */
+
+.container-9{
+    display: flex;
+    margin:  0 300px;
+}
+
+.re{
+    margin-top: 50px;
+}
+
+
+.heading{
+    margin-top: 50px;
+    margin-left: 105px;
+}
+
+
+.cla{
+    color: #462D4E;
+    font-family: "Circular Std", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.clas{
+    color: #462D4E;
+    font-family: "Circular Std", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 120%; /* 42px */
+
+}
+
+
+#id{
+    color: #7B6A83;
+    font-family: "Circular Std", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 32.4px */
+}
+
+
+.pink{
+    width: 172px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(88, 70, 223, 0.56);
+    background: #F5F6FA;
+    color: #5846DF;
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 23.2px */
+}
+
+/* hover */
+
+
+.pink:hover{
+    width: 172px;
+    height: 55px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid rgba(88, 70, 223, 0.56);
+    background: #5846DF;
+    color: #EFEDFF;
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 145%; /* 23.2px */
+}
+
+
+/* card section */
+
+.why{
+    color: #462D4E;
+    text-align: center;
+    font-family: "Circular Std", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 146px;
+    margin-bottom: 18px;
+}
+
+
+.way{
+    color: #7B6A83;
+    text-align: center;
+    font-family: "Circular Std", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+
+
+/* card container */
+
+.card-container{
+    margin-left:  200px;
+    margin-top: 68px;
+}
+
+.card-1{
+    display: flex;
+    gap: 20px;
+}
+
+.tow-inages{
+    display: flex;
+}
+
+
+
+
+.card{
+    width: 388px;
+    height: 214px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+
+/* hover */
+
+
+.card:hover{
+    width: 388px;
+    height: 214px;
+    border-radius: 10px;
+    background: #fff7f6;
+}
+
+
+
+/* card text section code */
+
+
+.h3{
+    margin-left: 24px;
+    color: #462D4E;
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px; /* 150% */
+    margin-top: 20px;
+}
+
+
+.more{
+    width: 65px;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.pra{
+    margin-left: 20px;
+    color: #7B6A83;
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+}
+
+
+.home{
+    margin-left: 251px;
+    width: 92.98px;
+height: 11.069px;
 }
