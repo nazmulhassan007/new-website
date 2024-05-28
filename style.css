@@ -363,7 +363,7 @@ text{
 /* card container */
 
 .card-container{
-    margin-left:  200px;
+    margin-left:  250px;
     margin-top: 68px;
 }
 
@@ -436,5 +436,82 @@ text{
 .home{
     margin-left: 251px;
     width: 92.98px;
-height: 11.069px;
+    height: 11.069px;
+}
+
+
+/* two card  section */
+
+
+.text-section{
+    margin-left: 250px;
+    display: flex;
+    gap: 21px;
+}
+
+.tea{
+    width: 376px;
+    height: 566px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+}
+
+/* hover */
+.tea:hover{
+    width: 376px;
+    height: 566px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #daeae5;
+    cursor: pointer;
+}
+
+
+.heading-jfi{
+    margin-top: 155px;
+    color: #462D4E;
+    font-family: "Circular Std", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 250px;
+}
+
+
+.home-container{
+    width: 318px;
+    height: 266px;
+    margin-left: 29.2px;
+    margin-top: 29px;
+}
+
+
+.ser{
+    color: #462D4E;
+    font-family: "Circular Std", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 26.4px */
+    margin-left: 30.21px;
+}
+
+
+.hut{
+    margin-left: 30.21px;
+    color: #7A6982;
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 156.25% */
+    letter-spacing: -0.08px;
+}
+
+
+.readmore{
+    margin-top: 48px;
+    margin-left: 33px;
 }
